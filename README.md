@@ -34,7 +34,7 @@ Stage (n) compiler - the test code compiled by stage (n-1) compiler
 - the competition is cancelled if less than 10 people submit at least one submission each
 - I may disqualify people at my own discretion for one of, but not limited to, the following reasons:
   - bigotry, including but not limited to racism, sexism/misogyny, homophobia, transphobia, queerphobia, ableism, or more
-  - repeatedly submitting low-quality projects that do not meet the requirements (legitimately trying and failing is one thing, repeatedly submitting low quality things without legitimately trying to fix issues is a problem)
+  - repeatedly submitting projects that do not meet the requirements (legitimately trying and failing is one thing, repeatedly submitting low quality things without legitimately trying to fix issues is a problem)
   - submitting malware
 
 ## Categories
@@ -42,7 +42,7 @@ Stage (n) compiler - the test code compiled by stage (n-1) compiler
 I'm kinda broke so prizes won't be very good, sorry
 
 - Smallest
-  - judged based on character count (with whitespace and comments not counted)
+  - judged based on character count (with whitespace and comments not counted) using counter.py
   - Prize is $10 amazon gift card to first place winner, $5 amazon gift card to second and third place winner
 - Most creative
   - judged based on whichever one I feel like is the overall most creative

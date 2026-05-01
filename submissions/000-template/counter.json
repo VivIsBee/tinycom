@@ -1,0 +1,11 @@
+{
+    "files": ["main.c"],
+    "comments": {
+        "line": "//",
+        "inline": {
+            "start": "/*",
+            "end": "*/"
+        },
+        "match": "(?#optional regex that is classified as comments)"
+    }
+}
