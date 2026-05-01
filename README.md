@@ -2,6 +2,10 @@
 
 A competition about making the smallest self-hosting compiler you can.
 
+Submissions are accepted between NOW and 06/07/2026 at 00:00 UTC.
+
+To make a submission, copy `submissions/000-template` and fill out the `README.md`, as well as adjusting the `counter.json` file. The program code can be in whatever structure you want, but please don't include large files (>1MB) in it, and all code including dependencies will be counted as part of it. Then, make a PR and rename the folder to `(PR number)-(name without spaces)`.
+
 ## Terminology
 
 Stage 0 compiler - external compiler used to compile stage 1
@@ -19,7 +23,7 @@ Stage (n) compiler - the test code compiled by stage (n-1) compiler
   - GNU/Linux (ELF executable)
   - Windows (PE executable)
   - MacOS (Mach-O executable)
-  - I'll even allow DOS (COM/MZ/PE executable)
+  - DOS (COM/MZ/PE executable)
 - the input program must be read either from a file or stdin
 - the compiler must not use any standard language facilities that allow executing or compiling code directly (eval in python isn't allowed)
 - the compiler cannot produce a static executable that doesn't change based on the input
