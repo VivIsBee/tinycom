@@ -35,6 +35,7 @@ Stage (n) compiler - the test code compiled by stage (n-1) compiler
 - I may disqualify people at my own discretion for one of, but not limited to, the following reasons:
   - bigotry, including but not limited to racism, sexism/misogyny, homophobia, transphobia, queerphobia, ableism, or more
   - repeatedly submitting low-quality projects that do not meet the requirements (legitimately trying and failing is one thing, repeatedly submitting low quality things without legitimately trying to fix issues is a problem)
+  - submitting malware
 
 ## Categories
 
