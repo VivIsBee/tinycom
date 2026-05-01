@@ -10,18 +10,39 @@ Stage 1 compiler - the tested code after being compiled by the stage 0 compiler
 
 Stage (n) compiler - the test code compiled by stage (n-1) compiler
 
-## Requirements
+## Requirements and rules
+
 - any language allowed
 - no obfuscation or minimization techniques can be used (variable/struct names can be shortened as long as there's another version with more descriptive names)
-- judged based on character count (with whitespace and comments not counted)
 - it must produce an executable for one of the following targets (only one of them is required, you don't have to target more than one):
   - WASM
   - GNU/Linux (ELF executable)
   - Windows (PE executable)
   - MacOS (Mach-O executable)
   - I'll even allow DOS (COM/MZ/PE executable)
-- the input must be read either from a file or stdin
+- the input program must be read either from a file or stdin
 - the compiler must not use any standard language facilities that allow executing or compiling code directly (eval in python isn't allowed)
-- the compiler cannot produce a static executable that isn't based on the input
+- the compiler cannot produce a static executable that doesn't change based on the input
+- the compiler must produce an output executable to a file, stdout, or stderr
 - the compiler must be self-hosting and an external compiler must be able to compile it so the code can be tested (the external compiler must either be open source or widely used to ensure the external compiler doesn't just copy its own code or something)
 - the stage 2 compiler must be byte-for-byte identical to the stage 3 compiler
+- all code must be 100% written by the submitter without any assistance of any kind from another person (submitting or not) or ANY form of AI. No exceptions, AI is NOT allowed. This also means you cannot like, submit `rustc` to this.
+- each submitter can submit multiple submissions, but can only win once overall
+- each submission will be considered overall for all categories. you do not have to submit to a specific category
+- judging will happen by me, @VivIsBee, going through each submission and deciding which one I meets the criteria for each category best
+  - on a related note, I may submit projects BUT they will not be considered for any categories.
+- the competition is cancelled if less than 10 people submit at least one submission each
+- I may disqualify people at my own discretion for one of, but not limited to, the following reasons:
+  - bigotry, including but not limited to racism, sexism/misogyny, homophobia, transphobia, queerphobia, ableism, or more
+  - repeatedly submitting low-quality projects that do not meet the requirements (legitimately trying and failing is one thing, repeatedly submitting low quality things without legitimately trying to fix issues is a problem)
+
+## Categories
+
+I'm kinda broke so prizes won't be very good, sorry
+
+- Smallest
+  - judged based on character count (with whitespace and comments not counted)
+  - Prize is $10 amazon gift card to first place winner, $5 amazon gift card to second and third place winner
+- Most creative
+  - judged based on whichever one I feel like is the overall most creative
+  - Prize is $15 amazon gift card
