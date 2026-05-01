@@ -13,7 +13,7 @@ Stage (n) compiler - the test code compiled by stage (n-1) compiler
 ## Requirements and rules
 
 - any language allowed
-- no obfuscation or minimization techniques can be used (variable/struct names can be shortened as long as there's another version with more descriptive names)
+- no obfuscation or minimization techniques can be used (variable/struct names and similar can be shortened as long as there's another version with more descriptive names)
 - it must produce an executable for one of the following targets (only one of them is required, you don't have to target more than one):
   - WASM
   - GNU/Linux (ELF executable)
