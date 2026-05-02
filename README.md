@@ -24,6 +24,8 @@ Stage (n) compiler - the test code compiled by stage (n-1) compiler
   - Windows (PE executable)
   - MacOS (Mach-O executable)
   - DOS (COM/MZ/PE executable)
+  - TI-84+CE calculator (8xp executable)
+  - Something else if there's an emulator for it available for Linux
 - the input program must be read either from a file or stdin
 - the compiler must not use any standard language facilities that allow executing or compiling code directly (eval in python isn't allowed)
 - the compiler cannot produce a static executable that doesn't change based on the input
