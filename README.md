@@ -40,6 +40,7 @@ Stage (n) compiler - the test code compiled by stage (n-1) compiler
   - bigotry, including but not limited to racism, sexism/misogyny, homophobia, transphobia, queerphobia, ableism, or more
   - repeatedly submitting projects that do not meet the requirements (legitimately trying and failing is one thing, repeatedly submitting low quality things without legitimately trying to fix issues is a problem)
   - submitting malware
+- If a submission goes against the spirit of the competition (i.e. exploiting loopholes in the rules), then I won't allow it. Repeatedly exploiting loopholes will either get you disqualified or get you to help reviewing, depending on how funny it is. tl;dr if you're going to find loopholes in the rules or break them at least be funny about it
 
 ## Categories
 
